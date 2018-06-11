@@ -1,0 +1,612 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    border: 1px solid red;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0)
+}
+
+#parentdiv {
+    height: 1758px;
+    width: 1901px;
+    overflow: hidden;
+}
+
+.wastedivs {
+    border: 1px solid #FF42DC;
+    height: 3278px;
+    width: 4px;
+    position: absolute;
+    z-index: 3;
+    border-top: none;
+    border-bottom: none;
+}
+
+#wastediv1 {
+    margin-left: 90px;
+}
+
+#wastediv2 {
+    margin-left: 1800px;
+}
+
+#logindiv {
+    position: absolute;
+    height: 60px;
+    width: 1903px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid #FF42DC;
+    color: white;
+    z-index: 5;
+}
+
+#logindiv:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#logintext {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 500px;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF42DC;
+}
+
+#usernameinput {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 683px;
+    height: 27px;
+    width: 200px;
+    border: 2px solid #FF42DC;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #FF42DC;
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+#passwordinput {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 1030px;
+    height: 27px;
+    width: 200px;
+    border: 2px solid #FF42DC;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+#gobutton {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 1340px;
+    height: 30px;
+    width: 80px;
+    color: #FF42DC;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 2px solid #FF42DC;
+}
+
+#gobutton:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.buttons {
+    position: absolute;
+    height: 60px;
+    width: 190px;
+    border-radius: 20px;
+    color: #FF42DC;
+    padding: 0px;
+    font-size: 25px;
+    font-weight: 100;
+    border: 2px solid #FF42DC;
+}
+
+.buttons:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 62px;
+    width: 192px;
+}
+
+#creatorbutton {
+    margin-top: 380px;
+    margin-left: 570px;
+}
+
+#branderbutton {
+    margin-top: 380px;
+    margin-left: 1150px;
+}
+
+#headerdiv {
+    position: absolute;
+    height: 799px;
+    width: 1903px;
+    z-index: -1;
+    background-image: url("newyork.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.headerheading {
+    position: absolute;
+    font-size: 70px;
+    color: #FF42DC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerheading:hover {
+    color: red;
+}
+
+    #letterI {
+        margin-top: 110px;
+        margin-left: 495px;
+        font-weight: 100;
+        font-size: 55px;
+        padding-top: 8px;
+    }
+
+    #letterN {
+        margin-top: 110px;
+        margin-left: 580px;
+        font-weight: 100;
+        font-size: 55px;
+        padding-top: 8px;
+    }
+
+    #letterS1 {
+        margin-top: 110px;
+        margin-left: 683px;
+        font-weight: 100;
+        font-size: 55px;
+        padding-top: 8px;
+    }
+
+    #letterT {
+        margin-top: 110px;
+        margin-left: 770px;
+        font-weight: 100;
+        font-size: 55px;
+        padding-top: 8px;
+    }
+
+    #letterA1 {
+        margin-top: 110px;
+        margin-left: 865px;
+        font-weight: 100;
+        font-size: 55px;
+        padding-top: 8px;
+    }
+
+    #letterF {
+        margin-top: 110px;
+        margin-left: 1030px;
+        font-weight: 1500;
+    }
+
+    #letterA2 {
+        margin-top: 110px;
+        margin-left: 1118px;
+        font-weight: 1500;
+    }
+
+    #letterM {
+        margin-top: 110px;
+        margin-left: 1210px;
+        font-weight: 1500;
+    }
+
+    #letterO {
+        margin-top: 110px;
+        margin-left: 1310px;
+        font-weight: 1500;
+    }
+
+    #letterU {
+        margin-top: 110px;
+        margin-left: 1410px;
+        font-weight: 1500;
+    }
+
+    #letterS2 {
+        margin-top: 110px;
+        margin-left: 1500px;
+        font-weight: 1500;
+    }
+
+.diamonddivs {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    z-index: 1;
+    /* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    /* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    position: absolute;
+}
+
+.diamonddivs:hover {
+    height: 204px;
+    width: 204px;
+    border: 2px solid #FF42DC;
+}
+
+.diamondimages {
+    overflow: hidden;
+    /* Rotate */
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    /* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+#diamond1 {
+    margin-top: 593px;
+    margin-left: 510px;
+}
+
+#diamond2 {
+    margin-top: 593px;
+    margin-left: 804px;
+}
+
+#diamond3 {
+    margin-top: 593px;
+    margin-left: 1098px;
+}
+
+#diamond4 {
+    margin-top: 593px;
+    margin-left: 1392px;
+}
+
+#diamond5 {
+    margin-top: 740px;
+    margin-left: 363px;
+}
+
+#diamond6 {
+    margin-top: 740px;
+    margin-left: 657px;
+}
+
+#diamond7 {
+    margin-top: 740px;
+    margin-left: 951px;
+}
+
+#diamond8 {
+    margin-top: 740px;
+    margin-left: 1245px;
+}
+
+#diamond9 {
+    margin-top: 740px;
+    margin-left: 1539px;
+}
+
+#diamond10 {
+    margin-top: 887px;
+    margin-left: 510px;
+}
+
+#diamond11 {
+    margin-top: 887px;
+    margin-left: 804px;
+}
+
+#diamond12 {
+    margin-top: 887px;
+    margin-left: 1098px;
+}
+
+#diamond13 {
+    margin-top: 887px;
+    margin-left: 1392px;
+}
+
+#diamondimage1 {
+    height: 300px;
+    width: 300px;
+    margin-top: -190px;
+    margin-left: -110px;
+}
+
+#diamondimage2 {
+    height: 420px;
+    width: 340px;
+    margin-top: -225px;
+    margin-left: -195px;
+}
+
+#diamondimage3 {
+    height: 390px;
+    width: 290px;
+    margin-top: -220px;
+    margin-left: -170px;
+}
+
+#diamondimage4 {
+    height: 350px;
+    width: 350px;
+    margin-top: -230px;
+    margin-left: -140px;
+}
+
+#diamondimage5 {
+    height: 300px;
+    width: 450px;
+    margin-top: -260px;
+    margin-left: -180px;
+}
+
+#diamondimage6 {
+    height: 450px;
+    width: 300px;
+    margin-top: -240px;
+    margin-left: -220px;
+}
+
+#diamondimage7 {
+    height: 400px;
+    width: 300px;
+    margin-top: -220px;
+    margin-left: -180px;
+}
+
+#diamondimage8 {
+    height: 300px;
+    width: 380px;
+    margin-top: -210px;
+    margin-left: -120px;
+}
+
+#diamondimage9 {
+    height: 370px;
+    width: 300px;
+    margin-top: -210px;
+    margin-left: -170px;
+}
+
+#diamondimage10 {
+    height: 430px;
+    width: 300px;
+    margin-top: -230px;
+    margin-left: -220px;
+}
+
+#diamondimage11 {
+    height: 400px;
+    width: 320px;
+    margin-top: -240px;
+    margin-left: -200px;
+}
+
+#diamondimage12 {
+    height: 350px;
+    width: 350px;
+    margin-top: -240px;
+    margin-left: -180px;
+}
+
+#diamondimage13 {
+    height: 400px;
+    width: 300px;
+    margin-top: -230px;
+    margin-left: -180px;
+}
+
+#featurediv {
+    position: absolute;
+    margin-top: 799px;
+    height: 1300px;
+    width: 1903px;
+    background-image: url("desertroadfaded.jpg");
+    background-size: cover;
+}
+
+#featureheading {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF42DC;
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-top: 400px;
+}
+
+.featureminidivs {
+    position: absolute;
+    height: 230px;
+    width: 230px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.featureminidivs:hover {
+    height: 234px;
+    width: 234px;
+}
+
+#featureminidiv1 {
+    margin-top: 150px;
+    margin-left: 220px;
+}
+
+#featureminidiv1:hover {
+    border: 2px solid #FF42DC;
+}
+
+#featureminidiv2 {
+    margin-top: 150px;
+    margin-left: 560px;
+}
+
+#featureminidiv2:hover {
+    border: 2px solid #FF42DC;
+}
+
+#featureminidiv3 {
+    margin-top: 450px;
+    margin-left: 220px;
+}
+
+#featureminidiv3:hover {
+    border: 2px solid #FF42DC;
+}
+
+#featureminidiv4 {
+    margin-top: 450px;
+    margin-left: 560px;
+}
+
+#featureminidiv4:hover {
+    border: 2px solid #FF42DC;
+}
+
+#featureminidiv5 {
+    margin-top: 150px;
+    margin-left: 1105px;
+}
+
+#featureminidiv5:hover {
+    border: 2px solid #FF42DC;
+}
+
+#featureminidiv6 {
+    margin-top: 150px;
+    margin-left: 1450px;
+}
+
+#featureminidiv6:hover {
+    border: 2px solid #FF42DC;
+}
+
+#featureminidiv7 {
+    margin-top: 450px;
+    margin-left: 1105px;
+}
+
+#featureminidiv7:hover {
+    border: 2px solid #FF42DC;
+}
+
+#featureminidiv8 {
+    margin-top: 450px;
+    margin-left: 1450px;
+}
+
+#featureminidiv8:hover {
+    border: 2px solid #FF42DC;
+}
+
+#image1 {
+    height: 360px;
+    width: 240px;
+}
+
+#image2 {
+    height: 318px;
+    width: 235px;
+}
+
+#image3 {
+    height: 320px;
+    width: 235px;
+}
+
+#image4 {
+    height: 300px;
+    width: 235px;
+}
+
+#image5 {
+    height: 245px;
+    width: 240px;
+    margin-top: -4px;
+    margin-left: -6px;
+}
+
+#image6 {
+    height: 235px;
+    width: 285px;
+}
+
+#image7 {
+    height: 235px;
+    width: 235px;
+}
+
+#image8 {
+    height: 235px;
+    width: 235px;
+}
+
+.names {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF42DC;
+    position: absolute;
+}
+
+#name1 {
+    margin-top: 405px;
+    margin-left: 285px;
+}
+
+#name2 {
+    margin-top: 405px;
+    margin-left: 638px;
+}
+
+#name3{
+    margin-top: 700px;
+    margin-left: 297px;
+}
+
+#name4 {
+    margin-top: 700px;
+    margin-left: 628px;
+}
+
+#marketplacediv {
+    position: absolute;
+    margin-top: 2099px;
+    height: 1180px;
+    width: 1903px;
+    background-image: url("planeflyingofffaded.jpg");
+    background-size: cover;
+    z-index: -1;
+}
